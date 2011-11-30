@@ -10,7 +10,7 @@ The main functionality is provided by the
 `diff-match-patch-clj.core` namespace:
 
 ```clojure
-(require '[diff-match-patch-clj.core :as dmp])
+(use 'diff-match-patch-clj.core)
 ```
 
 You can create your own diff-match-patch object or use the default one
